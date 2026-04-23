@@ -1,0 +1,41 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Composer
+composer.lock
+composer.phar
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+.coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE & editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / dist
+/build/
+/dist/
+
+# Logs
+*.log
+/storage/logs/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
